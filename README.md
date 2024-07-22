@@ -24,7 +24,7 @@ Particular Power Strip è stato realizzato per poter automatizzare l'accensione 
 - **Comandi**: Per poter controllare la presa sono previsti 5 comandi. I numeri da 0 a 4 controllano corrispettivamente le prese a partire da sinistra. Più un comando 'N' che manda a video lo stato attuale delle prese(Accese o Spente).
 
 
-## Installazione e Uso
+## Installazione
 
 Per utilizzare Particular Power Strip bisogna disporre di un terminale bluetooth installato sul proprio device. Dopo aver effettuato il pair (solitamente il nome del dispositivo appare come HC-06) puoi cominciare a inviare i comandi.
 
@@ -41,6 +41,9 @@ Per utilizzare Particular Power Strip bisogna disporre di un terminale bluetooth
 - Jumper
 - BTICINO 25412 - IDROBOXMATIX - CUSTODIA IP40 12P
 - Pressa cavo PG9
+
+## Schema elettrico
+![Schema](https://github.com/jim-bug/PPS/blob/main/Presentation/PPS_schemaElettrico.jpg)
 
 ## Licenza
 Particular Power Strip ha una licenza GNU General Public License v3.0.
