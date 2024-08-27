@@ -120,7 +120,7 @@
     </body>
     <script>
         const prese = document.querySelectorAll('.presa');
-        prese.forEach(presa => {
+        prese.forEach((presa, index) => {
             const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
             svg.setAttribute('width', '100');
             svg.setAttribute('height', '200');
@@ -141,7 +141,7 @@
             presa.appendChild(svg);
 
             presa.addEventListener('click', () => {
-                window.location.href = '/26/off';
+                window.location.href = `/socket/${index}`;
             });
         });
     </script>
