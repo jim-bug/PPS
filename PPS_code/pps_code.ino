@@ -15,8 +15,8 @@
 #define TIMEOUTTIME 5000
 #define PORT 5544
 
-const char* ssid = "B628_08B2";
-const char* password = "a3qMH8dNMbq";
+const char* ssid = "";
+const char* password = "";
 WiFiServer server(5544);       // Server will work on 5544 port.
 String header;
 
