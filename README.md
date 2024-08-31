@@ -21,7 +21,7 @@ Particular Power Strip è stato realizzato per poter automatizzare l'accensione 
 ## Caratteristiche
 
 - **Connessione bluetooth**: è possibile connettersi alla multipresa elettrica mediante il bluetooth.
-- **Comandi**: Per poter controllare la presa sono previsti 5 comandi. I numeri da 0 a 4 controllano corrispettivamente le prese a partire da sinistra. Più un comando 'N' che manda a video lo stato attuale delle prese(Accese o Spente).
+- **Comandi**: Per poter controllare la presa sono previsti 5 comandi. I numeri da 0 a 3 controllano corrispettivamente le prese a partire da sinistra. Più un comando 'N' che manda a video lo stato attuale delle prese(Accese o Spente).
 
 
 ## Installazione
@@ -34,10 +34,10 @@ Per utilizzare Particular Power Strip bisogna disporre di un terminale bluetooth
 - StepDown
 - Modulo a 4 relè 5V
 - Prese elettriche bivalenti x 4
-- Alimentatore Nudo 12V 1.5A
+- Alimentatore Nudo 12V 1A
 - Copriforo bianchi x 6
 - Presa elettrica maschio 16A
-- Cavi elettrici(blue, marrone, giallo-verde) 2.5mm
+- Cavi elettrici(blu, marrone, giallo-verde) 2.5mm^2
 - Jumper
 - BTICINO 25412 - IDROBOXMATIX - CUSTODIA IP40 12P
 - Pressa cavo PG9
