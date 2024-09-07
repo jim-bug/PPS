@@ -2,7 +2,9 @@
  Author: Ignazio Leonardo Calogero Sperandeo
  Date: 25/08/2024
  Project Name: PPSv2
- Repo: ...
+ Repo: https://github.com/jim-bug/PPS/tree/pps-v2
+ 
+ by jim_bug // :)
 */
 
 
@@ -85,7 +87,7 @@ void loop(){
 
                         for(int i = START_PIN; i <= END_PIN;i++){
                             if(header.indexOf("GET /socket/"+ String(i-START_PIN)) >= 0){
-                                Serial.println("Socket " + String(i-START_PIN) + "has changed state!");
+                                Serial.println("Socket " + String(i-START_PIN) + " has changed state!");
                                 socketStatus[i-START_PIN] = !socketStatus[i-START_PIN];
                                 digitalWrite(i, socketStatus[i-START_PIN]);
                             }
@@ -266,3 +268,5 @@ void loop(){
         Serial.println();
     }
 }
+
+// :)
