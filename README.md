@@ -44,7 +44,7 @@ PPSv2 works with a web server, just enter the URL in the browser. You'll find th
 ![Diagram](https://github.com/jim-bug/PPS/blob/pps-v2/Documents/Diagram/PPSv2_diagram.png)
 
 ## WebSite
-![web Site](https://github.com/jim-bug/PPS/blob/pps-v2/Documents/Diagram/WebSite.png)
+![web Site](https://github.com/jim-bug/PPS/blob/pps-v2/Documents/Diagram/WebUI_PPSv2.png)
 
 ## License
 [GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/)
