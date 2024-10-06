@@ -10,16 +10,17 @@
 - [Use](#use)
 - [BOM (Bill of Materials)](#bom)
 - [Elettrical Diagram](#diagram)
+- [Overview](#website)
 - [License](#license)
 - [Contact](#contact)
 
 
 ## Introduction
-PPSv2 is a new version of PPS (Particoular Power Strip), it can manage the state of 4 sockets with HTTP server, provided by ESP32.
+PPSv2 is a new version of PPS (Particular Power Strip), it can manage the state of 4 sockets with HTTP server, provided by ESP32.
 PPSv2 doesn't expect any encryption currently.
 
 ## Features
-- **Web Server**: you can use PSv2 with a web server, it works with 5544 port.
+- **Web Server**: you can use PPSv2 with a web server, it works with 5544 port.
 - **State**: you can view the state of 4 socket without sending any command.
 - **Debug**: PPSv2 has a debug on the ESP32 serial monitor
 
@@ -41,6 +42,9 @@ PPSv2 works with a web server, just enter the URL in the browser. You'll find th
 
 ## Diagram:
 ![Diagram](https://github.com/jim-bug/PPS/blob/pps-v2/Documents/Diagram/PPSv2_diagram.png)
+
+## WebSite
+![web Site](https://github.com/jim-bug/PPS/blob/pps-v2/Documents/Diagram/WebUI_PPSv2.png)
 
 ## License
 [GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/)
