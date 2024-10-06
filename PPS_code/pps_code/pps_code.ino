@@ -99,7 +99,7 @@ void loop(){
                         client.println("<meta charset=\"UTF-8\">");
                         client.println("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">");
                         client.println("<title>PPS-v2</title>");
-                        client.println("<h1 align=\"center\">Particoular Power Strip v2</h1>");
+                        client.println("<h1 align=\"center\">Particular Power Strip v2</h1>");
                         client.println("<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css\">");
                         client.println("");
                         client.println("<style>");
